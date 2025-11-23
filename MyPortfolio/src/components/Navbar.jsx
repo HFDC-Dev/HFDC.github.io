@@ -1,39 +1,37 @@
 const Navbar = () => {
     return (
 
-        <div className="drawer drawer-end">
-            <input id="my-drawer-5" type="checkbox" className="drawer-toggle" />
+        <div className="navbar bg-black/100 fixed top-0 left-0 w-full z-50 shadow-md px-6 lg:px-10 flex justify-between items-center">
 
-            {/* Navbar */}
-            <div className="drawer-content flex justify-center items-center p-10 text-white relative">
+            {/* Bouton d'accueil  */}
+            <div className="flex-none">
+                <a href="#" className="text-5xl font-bold text-emerald-600" style={{ fontFamily: '"Science Gothic", sans-serif' }}>H</a>
+            </div>
 
-                <div className="absolute left-1/2 transform -translate-x-1/2">
-                    <button className="btn btn-ghost btn-circle text-white 
-                     transition-transform duration-300 
-                     hover:-translate-y-1 hover:scale-110">
+            {/* Liens centraux pour desktop */}
+            <div className="hidden lg:flex flex-1 justify-center">
+                <ul className="menu menu-horizontal px-1 text-lg font-semibold gap-8" style={{ fontFamily: '"Science Gothic", sans-serif' }}>
+                    <li><a href="#about" className="hover:text-emerald-600">À propos</a></li>
+                    <li><a href="#skills" className="hover:text-emerald-600">Compétences</a></li>
+                    <li><a href="#projects" className="hover:text-emerald-600">Projets</a></li>
+                    <li><a href="#experience" className="hover:text-emerald-600">Parcours</a></li>
+                </ul>
+            </div>
+
+            {/* Bouton Contact */}
+            <div className="hidden lg:flex flex-none">
+                <button className="w-25 h-10 bg-emerald-600 hover:bg-emerald-500 text-black font-bold border-none cursor-pointer" style={{ fontFamily: '"Science Gothic", sans-serif' }}>
+                    Contact
+                </button>
+            </div>
+
+            {/* Menu hamburger mobile */}
+            <div className="lg:hidden flex-none">
+                <div className="dropdown dropdown-end">
+                    <label tabIndex={0} className="btn btn-ghost">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-10 w-10"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                d="M3 12l9-9 9 9M4 10v10a1 1 0 001 1h3m10-11v10a1 1 0 01-1 1h-3m-6 0h6"
-                            />
-                        </svg>
-                    </button>
-                </div>
-
-                {/* Hamburger à droite, rapproché */}
-                <div className="absolute right-1/4">
-                    <label htmlFor="my-drawer-5" className="cursor-pointer">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-10 w-10 text-white"
+                            className="h-8 w-8 text-white"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -41,21 +39,20 @@ const Navbar = () => {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </label>
+                    <ul
+                        tabIndex={0}
+                        className="menu dropdown-content mt-3 z-[1] p-4 shadow bg-base-200 rounded-box w-52 text-lg font-semibold"
+                    >
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#experience">Parcours</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
             </div>
 
-            {/* Drawer Side */}
-            <div className="drawer-side">
-                <label htmlFor="my-drawer-5" className="drawer-overlay"></label>
-                <ul className="menu p-8 w-96 bg-base-200 min-h-screen text-xl gap-6">
-                    <li><a href="#about" className="font-semibold hover:text-emerald-600">À propos</a></li>
-                    <li><a href="#skills" className="font-semibold hover:text-emerald-600">Compétences</a></li>
-                    <li><a href="#projects" className="font-semibold hover:text-emerald-600">Projets</a></li>
-                    <li><a href="#contact" className="font-semibold hover:text-emerald-600">Contact</a></li>
-                </ul>
-            </div>
         </div>
-
     )
 }
 
