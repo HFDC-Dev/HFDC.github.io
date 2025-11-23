@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
 
-        <div className="navbar bg-black fixed top-0 left-0 w-full z-50 shadow-md px-6 lg:px-10 flex justify-between items-center">
+        <nav className="navbar bg-black fixed top-0 left-0 w-full z-50 shadow-md px-6 lg:px-10 flex justify-between items-center">
 
             {/* Bouton d'accueil  */}
             <div className="flex-none">
@@ -52,7 +52,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-        </div>
+        </nav>
     )
 }
 

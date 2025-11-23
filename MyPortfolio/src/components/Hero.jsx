@@ -2,7 +2,7 @@ import Matrix from '../assets/matrix.mp4'
 
 const Hero = () => {
     return (
-        <div className="relative w-full min-h-[calc(100vh-10rem)] flex items-center justify-center px-8 lg:px-24">
+        <main className="relative w-full h-screen flex items-center justify-center px-8 lg:px-24">
 
             {/* Vidéo de fond */}
             <video
@@ -43,7 +43,7 @@ const Hero = () => {
                     <div className="flex items-center justify-center lg:justify-start gap-7 mt-4">
                         {/* GitHub */}
                         <a
-                            href="https://github.com/tonprofil"
+                            href="https://github.com/HFDC-Dev"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-white hover:text-emerald-400 transition-transform hover:scale-125"
@@ -69,7 +69,7 @@ const Hero = () => {
                 </div>
 
             </div>
-        </div>
+        </main>
     )
 }
 
