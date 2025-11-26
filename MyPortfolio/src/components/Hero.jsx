@@ -31,7 +31,7 @@ const Hero = () => {
 
                 {/* Sous-titre */}
                 <p
-                    className='text-4xl text-white mb-4'
+                    className='typewriter text-4xl text-white mb-4'
                     style={{ fontFamily: '"Science Gothic", sans-serif' }}
                 >
                     Développeur web
