@@ -40,6 +40,10 @@
   --noise: 0;
 }
 
+.section {
+  @apply w-full pt-43 pb-32 px-6 lg:px-24 relative;
+}
+
 html {
   scroll-behavior: smooth;
 }

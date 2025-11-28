@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section
             id="about"
-            className="relative w-full py-16 md:py-40 px-6 lg:px-24 flex flex-col items-center overflow-hidden"
+            className="section flex flex-col items-center overflow-hidden"
         >
             {/* Contenu de la section */}
             <div className="relative z-20 w-full max-w-6xl flex flex-col items-center">
