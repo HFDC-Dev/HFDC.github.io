@@ -43,7 +43,7 @@ const Projects = () => {
                     className="text-4xl md:text-5xl font-bold text-white"
                     style={{ fontFamily: '"Science Gothic", sans-serif' }}
                 >
-                    Mes <span className="text-emerald-400">projets</span>
+                    Mes <span className="text-emerald-400">Projets</span>
                 </h1>
             </div>
 

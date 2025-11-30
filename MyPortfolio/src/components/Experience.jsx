@@ -45,7 +45,7 @@ const Experience = () => {
                     className="text-4xl md:text-5xl font-bold text-white"
                     style={{ fontFamily: '"Science Gothic", sans-serif' }}
                 >
-                    Mon <span className="text-emerald-400">parcours</span>
+                    Mon <span className="text-emerald-400">Parcours</span>
                 </h1>
             </div>
 
