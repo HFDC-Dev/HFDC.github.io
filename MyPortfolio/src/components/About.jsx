@@ -59,9 +59,10 @@ const About = () => {
                             Aujourd’hui, je crée des interfaces modernes et accessibles tout en continuant à apprendre chaque jour.
                         </p>
 
+                        {/* CV */}
                         <a
-                            href="/CV.pdf"
-                            download
+                            href="../public/CV_1.pdf"
+                            download="CV_1.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="mt-4 md:mt-8 px-4 md:px-6 py-2 md:py-3 bg-emerald-500 hover:bg-emerald-600
