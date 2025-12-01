@@ -80,7 +80,7 @@ const Experience = () => {
                     {slides.map((slide, index) => (
                         <div key={index} className="carousel-item w-full flex justify-center">
                             <div className="flex items-center gap-6 bg-[#1B1717] p-8 rounded-2xl shadow-xl w-full">
-                                <img src={slide.logo} alt={slide.title} className="w-24 h-24 object-contain" />
+                                <img src={slide.logo} alt={`Logo de ${slide.title}`} className="w-24 h-24 object-contain" />
 
                                 <div>
                                     <h2 className="text-xl md:text-2xl font-bold text-white">{slide.title}</h2>

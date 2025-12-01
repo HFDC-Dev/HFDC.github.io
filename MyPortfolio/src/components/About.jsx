@@ -62,6 +62,8 @@ const About = () => {
                         <a
                             href="/CV.pdf"
                             download
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="mt-4 md:mt-8 px-4 md:px-6 py-2 md:py-3 bg-emerald-500 hover:bg-emerald-600
                  text-black font-semibold rounded-lg shadow-lg transition-all
                  hover:shadow-emerald-400/30 hover:-translate-y-1 self-center lg:self-start text-sm md:text-base"

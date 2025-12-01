@@ -54,19 +54,19 @@ const Skills = () => {
                     </h2>
                     <div className="grid grid-cols-2 gap-6">
                         <div className="flex flex-col items-center">
-                            <img src="https://devicon-website.vercel.app/api/html5/original.svg" alt="HTML5" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
+                            <img src="https://devicon-website.vercel.app/api/html5/original.svg" alt="Logo de HTML5" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
                             <h3 className="text-white">HTML5</h3>
                         </div>
                         <div className="flex flex-col items-center">
-                            <img src="https://devicon-website.vercel.app/api/css3/original.svg" alt="CSS3" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
+                            <img src="https://devicon-website.vercel.app/api/css3/original.svg" alt="Logo de CSS3" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
                             <h3 className="text-white">CSS3</h3>
                         </div>
                         <div className="flex flex-col items-center">
-                            <img src="https://devicon-website.vercel.app/api/react/original.svg" alt="React" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
+                            <img src="https://devicon-website.vercel.app/api/react/original.svg" alt="Logo de React" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
                             <h3 className="text-white">React</h3>
                         </div>
                         <div className="flex flex-col items-center">
-                            <img src="https://devicon-website.vercel.app/api/javascript/original.svg" alt="Javascript" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
+                            <img src="https://devicon-website.vercel.app/api/javascript/original.svg" alt="Logo de Javascript" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
                             <h3 className="text-white">Javascript</h3>
                         </div>
                     </div>
@@ -82,15 +82,15 @@ const Skills = () => {
                     </h2>
                     <div className="grid grid-cols-2 gap-6">
                         <div className="flex flex-col items-center">
-                            <img src="https://devicon-website.vercel.app/api/nodejs/original.svg" alt="Node.js" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
+                            <img src="https://devicon-website.vercel.app/api/nodejs/original.svg" alt="Logo de Node.js" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
                             <h3 className="text-white">Node.js</h3>
                         </div>
                         <div className="flex flex-col items-center">
-                            <img src="https://devicon-website.vercel.app/api/express/original.svg?color=%23FFFFFF" alt="Express" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
+                            <img src="https://devicon-website.vercel.app/api/express/original.svg?color=%23FFFFFF" alt="Logo Express" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
                             <h3 className="text-white">Express</h3>
                         </div>
                         <div className="flex flex-col items-center">
-                            <img src="https://devicon-website.vercel.app/api/mongodb/plain-wordmark.svg" alt="MongoDB" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
+                            <img src="https://devicon-website.vercel.app/api/mongodb/plain-wordmark.svg" alt="Logo de MongoDB" className="w-16 h-16 mb-2 transform transition duration-300 hover:scale-110" />
                             <h3 className="text-white">MongoDB</h3>
                         </div>
                     </div>

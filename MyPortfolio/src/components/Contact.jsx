@@ -75,10 +75,11 @@ const Contact = () => {
                 className="w-full max-w-xl bg-base-300 p-8 rounded-2xl shadow-xl space-y-6 opacity-0 -translate-y-10 transition-all duration-700 delay-200"
             >
                 <div className="form-control">
-                    <label className="label w-15">
+                    <label className="label w-15" htmlFor="contact-name">
                         <span className="label-text text-white">Nom</span>
                     </label>
                     <input
+                        id="contact-name"
                         type="text"
                         name="name"
                         value={form.name}
@@ -90,10 +91,11 @@ const Contact = () => {
                 </div>
 
                 <div className="form-control">
-                    <label className="label w-15">
+                    <label className="label w-15" htmlFor="contact-email">
                         <span className="label-text text-white">Email</span>
                     </label>
                     <input
+                        id="contact-email"
                         type="email"
                         name="email"
                         value={form.email}
@@ -104,11 +106,13 @@ const Contact = () => {
                     />
                 </div>
 
+
                 <div className="form-control">
-                    <label className="label w-38">
+                    <label className="label w-38" htmlFor="contact-message">
                         <span className="label-text text-white">Votre message</span>
                     </label>
                     <textarea
+                        id="contact-message"
                         name="message"
                         value={form.message}
                         onChange={handleChange}
@@ -117,6 +121,7 @@ const Contact = () => {
                         required
                     ></textarea>
                 </div>
+
 
                 <div className="form-control mt-4 flex justify-center">
                     <button

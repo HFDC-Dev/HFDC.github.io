@@ -57,13 +57,13 @@ const Hero = () => {
                 </h1>
 
                 {/* Sous-titre */}
-                <p
+                <h2
                     ref={subtitleRef}
                     className='typewriter text-4xl text-white mb-4 opacity-0 -translate-y-10 transition-all duration-700 delay-200'
 
                 >
                     Développeur web
-                </p>
+                </h2>
 
                 {/* Description */}
                 <p
