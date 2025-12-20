@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: "/HFDC-Dev.github.io",
+  base: "/",
 })
